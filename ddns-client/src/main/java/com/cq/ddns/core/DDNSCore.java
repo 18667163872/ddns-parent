@@ -37,9 +37,9 @@ public class DDNSCore {
 				// 更新dns
 				caller.update(entity.setValue(ip));
 			}
+			// 缓存ip
+			ownInternateIp = ip;
 		}
-		// 缓存ip
-		ownInternateIp = ip;
 	}
 
 }
